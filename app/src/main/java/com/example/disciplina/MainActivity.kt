@@ -193,7 +193,7 @@ fun BoshSahifa(
                     Text("Kunlik Maqsadlar", fontWeight = FontWeight.Bold, color = Color.White)
                     Spacer(modifier = Modifier.height(8.dp))
                     LinearProgressIndicator(
-                        progress = { progress },
+                        progress = progress,
                         modifier = Modifier.fillMaxWidth().height(10.dp),
                         color = MaterialTheme.colorScheme.primary,
                         trackColor = Color(0xFF2A2A2A)
@@ -535,4 +535,3 @@ fun StatCard(title: String, value: String, color: Color, modifier: Modifier = Mo
         }
     }
 }
-
